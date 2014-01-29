@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	background-color: #ddd;
+	font-family: "Lucida Grande", sans-serif;
+	color: #666;
+}
+img {
+	border: 0;
+}
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: -0.5em;
+	color: #222;
+	clear: both;
+}
+
+div#wrapper {
+	margin: 30px 6% 0 6%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+div#wrapper a.note {
+    color: #666666;
+    font-size: smaller;
+    text-decoration: none;
+}
+div#wrapper p.lead {
+	margin-top: 0.8em;
+	font-weight: bold;
+}
+
+div#header {
+	height: 36px;
+	background-image: url(images/header_bg.png);
+	position: relative;
+	color: #fff;
+	margin: -1px -1px 0 -1px;
+	border: 1px solid #000;
+}
+div#header #logo {
+	top: 0;
+	left: 0;
+	position: absolute;
+	height: 36px;
+}
+div#header #extLink {
+	top: 0;
+	right: 0;
+	position: absolute;
+	height: 36px;
+}
+
+div#topic {
+	height: 300px;
+	position: relative;
+	background-color: #fff;
+	margin: 0;
+}
+div#topic img#topic_title {
+	width: 366px;
+	height: 100px;
+	position: absolute;
+	top: 107px;
+	left: 5%;
+	z-index: 1;
+}
+div#topic img#topic_fig {
+	width: 240px;
+	height: 240px;
+	position: absolute;
+	bottom: 20px;
+	right: 10%;
+	z-index: 0;
+}
+
+div#navi {
+	background: #fff;
+	width: 94%;
+	margin: 0 3%;
+	padding: 0;
+	float: left;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+}
+div#navi ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+div#navi ul li {
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: small;
+}
+div#navi ul li a {
+	display: block;
+	float: left;
+	padding: 0.5em 2em;
+	text-decoration: none;
+	color: #999;
+}
+
+div#contents-left, div#contents-right {
+	float: left;
+	width: 45%;
+	padding: 0;
+	font-size: small;
+}
+div#contents-left {
+	margin: 20px 2% 0 3%;
+}
+div#contents-right {
+	margin: 20px 3% 0 2%;
+}
+div#contents-left p, div#contents-right p {
+	line-height: 1.5em;
+}
+
+div#footnote {
+	clear: left;
+	margin: 2em 3% 1.5em 3%;
+	padding-top: 5px;
+	padding-bottom: 1em;
+	font-size: x-small;
+	color: #999999;
+}
+div#footnote ol {
+	padding-left: 2em;
+}
+
+#footer {
+	margin: 1em 6% 30px 6%;
+	padding-top: 0;
+	font-size: x-small;
+	line-height: 150%;
+}
+#footer p, #footer p a {
+	font-weight: bold;
+}
+#footer address {
+	width: 100%;
+	clear: both;
+	font-style: normal;
+	border-top: 1px solid #cccccc;
+	padding-top: 1em;
+}
+body .lingrBadge
+{
+    width: 200px !important;
+    height: 70px !important;
+    border: none !important;
+}
+
+body .lingrBadge a
+{
+}

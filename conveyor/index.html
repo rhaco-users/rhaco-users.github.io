@@ -1,0 +1,90 @@
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="js/facebox/facebox.css" />
+  <title>conveyor :: PHP Pluggable RSS Aggregator</title>
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+      google.load("jquery", "1.2");
+  </script>
+  <script type="text/javascript" src="js/facebox/facebox.js"></script>
+  <script type="text/javascript"> 
+    jQuery(document).ready(function($) {
+      $('a[rel*=facebox]').facebox({
+        loading_image : './js/facebox/loading.gif',
+        close_image   : './js/facebox/closelabel.gif'
+      }) 
+    })
+  </script>
+</head>
+<body>
+<div id="wrapper">
+
+  <div id="header">
+    <a href="/"><img src="images/header_logo.png" alt="home" id="logo" /></a>
+    <a href="http://rhaco-users.jp/"><img src="images/header_doc.png  " alt="rhaco-users.jp" id="extLink" /></a>
+  </div>
+
+  <div id="topic">
+    <img src="images/logo.gif" id="topic_title" />
+    <img src="images/image.jpg" id="topic_fig" />
+  </div>
+
+  <div id="navi">
+    <ul>
+      <li><a href="/">ホーム</a></li>
+      <li><a href="http://code.google.com/p/rhaco/downloads/list?q=label:conveyor">ダウンロード</a></li>
+      <li><a href="http://code.google.com/p/rhaco/wiki/conveyor_startup">はじめよう</a></li>
+    </ul>
+  </div>
+
+  <div id="contents-left">
+    <p class="lead">Conveyor (旧名PRhagger) は Plagger のように情報の収集、加工、出力が出来るアプリケーションです。 PHP4以降で動作します。rhaco Framework によるインストールの簡単さとブラウザ上で簡単に設定出来る点が特徴です。</p>
+    
+    <h2>メイン画面(1) <a href="#note1" class="note">*1</a></h2>
+    <p><a href="screenshot/conveyor_main_1.png" rel="facebox"><img src="screenshot/conveyor_main_1_s.png" alt="" /></a></p>
+    
+    <h2>メイン画面(2) <a href="#note1" class="note">*1</a></h2>
+    <p><a href="screenshot/conveyor_main_2.png" rel="facebox"><img src="screenshot/conveyor_main_2_s.png" alt="" /></a></p>
+    
+    <h2>インストール済みワーカー一覧 <a href="#note1" class="note">*1</a></h2>
+    <p><a href="screenshot/conveyor_employedworkers_1.png" rel="facebox"><img src="screenshot/conveyor_employedworkers_1_s.png" alt="" /></a></p>
+    
+    <h2>全ワーカー一覧 <a href="#note1" class="note">*1</a></h2>
+    <p><a href="screenshot/conveyor_allworkers_1.png" rel="facebox"><img src="screenshot/conveyor_allworkers_1_s.png" alt="" /></a></p>
+    
+  </div>
+  <div id="contents-right">
+    <h2>スクリーンキャスト</h2>
+    <p>Conveyorを導入するまでの一連の流れを<a href="screencast.html" rel="facebox">動画で確認出来ます</a>。<a href="#note2" class="note">*2</a></p>
+    
+    <h2>conveyorって何て読むの？</h2>
+    <p>「コンベア」と読みます。ベルトコンベアのコンベアです。</p>
+    
+    <h2>lineとかworkerって何？</h2>
+    <p>ライン(line)はConveyorでの一連の流れを記述したファイルです。ワーカー(worker)は他のアプリで言うプラグインのようなもので Conveyor に機能を追加します。スクリーンキャストのチュートリアルでは</p>
+    <blockquote>[フィードの取得]<br />
+    ↓<br />
+    [フィードの書きだし]</blockquote>
+    <p>がラインになり、その中のそれぞれの項目がワーカーになります。</p>
+    
+    <h2>何か動かないんだけど</h2>
+    <p><a href="http://www.lingr.com/room/rhaco-ja">lingr</a> や <a href="http://groups.google.com/group/rhaco-ja">google group</a> にてお知らせ下さい。</p>
+  </div>
+
+  <div id="footnote">
+    <ol>
+      <li><a name="note1" id="note1"></a>画像をクリックすると拡大します</li>
+      <li><a name="note2" id="note2"></a>より鮮明な映像は<a href="http://www.screencast-o-matic.com/watch/ci6jFyCa">こちらから視ることができます</a>。</li>
+    </ol>
+  </div>
+</div>
+
+<div id="footer">
+  <p>このサイトは <a href="http://code.google.com/p/rhaco/">Google Code Hosting</a> 上で管理する予定です。</p>
+  <address>Copyright &copy; rhaco-users.jp All rights reserved.<br />
+  $Id$</address>
+</div>
+</body>
+</html>
