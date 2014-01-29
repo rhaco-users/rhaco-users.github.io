@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>rhaco: クラス RequestLoginConditionDb</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css">
+<link href="../../doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- 作成： Doxygen 1.5.8 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="../../main.html"><span>メインページ</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>データ構造</span></a></li>
+    <li>
+      <form action="../../search.php" method="get">
+        <table cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td><label>&nbsp;検索&nbsp;</label></td>
+            <td><input type="text" name="query" value="" size="20" accesskey="s"/></td>
+          </tr>
+        </table>
+      </form>
+    </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="../../annotated.html"><span>データ構造</span></a></li>
+      <li><a href="../../hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="../../functions.html"><span>データフィールド</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>クラス RequestLoginConditionDb</h1><!-- doxytag: class="RequestLoginConditionDb" --><!-- doxytag: inherits="RequestLoginCondition" --><div class="dynheader">
+RequestLoginConditionDbに対する継承グラフ</div>
+<div class="dynsection">
+
+<p><center><img src="../../d8/da2/class_request_login_condition_db.png" usemap="#RequestLoginConditionDb_map" border="0" alt=""></center>
+<map name="RequestLoginConditionDb_map">
+<area href="../../d7/d0d/class_request_login_condition.html" alt="RequestLoginCondition" shape="rect" coords="0,0,156,24">
+</map>
+</div>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public メソッド</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="38bacdd32fc8669faeaa8a319eef4084"></a><!-- doxytag: member="RequestLoginConditionDb::RequestLoginConditionDb" ref="38bacdd32fc8669faeaa8a319eef4084" args="(&amp;$dbUtil, $tableObject)" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>RequestLoginConditionDb</b> (&amp;$dbUtil, $tableObject)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="82062b56ee0e0cb00aa5d22541e354c4"></a><!-- doxytag: member="RequestLoginConditionDb::__init__" ref="82062b56ee0e0cb00aa5d22541e354c4" args="(&amp;$dbUtil, $tableObject)" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (&amp;$dbUtil, $tableObject)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da2/class_request_login_condition_db.html#d9ffc98aba11442060e08f39a6077d7b">condition</a> ($request)</td></tr>
+
+<tr><td colspan="2"><br><h2>変数</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="1fa3127fc82f96b1436d871ef02be319"></a><!-- doxytag: member="RequestLoginConditionDb::$db" ref="1fa3127fc82f96b1436d871ef02be319" args="" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>$db</b></td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="52123b83a1952a68c5513e47d59ec4a6"></a><!-- doxytag: member="RequestLoginConditionDb::$object" ref="52123b83a1952a68c5513e47d59ec4a6" args="" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>$object</b></td></tr>
+
+</table>
+<hr><a name="_details"></a><h2>説明</h2>
+ignore DBを利用してログインを行う認証条件<p>
+<dl class="author" compact><dt><b>作者:</b></dt><dd>Kazutaka Tokushima  New BSD License  Copyright 2008 rhaco project. All rights reserved. </dd></dl>
+<hr><h2>関数</h2>
+<a class="anchor" name="d9ffc98aba11442060e08f39a6077d7b"></a><!-- doxytag: member="RequestLoginConditionDb::condition" ref="d9ffc98aba11442060e08f39a6077d7b" args="($request)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">condition           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>request</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+指定のTableObjectのloginCondition(&amp;$db,&amp;$var,$request)を実行する クッキー情報が存在する場合、指定のTableObjectのloginConditionCookie(&amp;$db,&amp;$var,$cookiekey)を実行する<p>
+&amp;$db database.DbUtilインスタンス &amp;$var ユーザ情報を格納する変数 $request network.http.Requestのインスタンス $cookiekey クッキーに格納されたログインキー<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>unknown_type</em>&nbsp;</td><td>$request </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>unknown </dd></dl>
+
+<p><a class="el" href="../../d7/d0d/class_request_login_condition.html#d9ffc98aba11442060e08f39a6077d7b">RequestLoginCondition</a>を再定義しています。</p>
+
+</div>
+</div><p>
+<hr>このクラスの説明は次のファイルから生成されました:<ul>
+<li>network/http/model/RequestLoginConditionDb.php</ul>
+</div>
+<hr size="1"><address style="text-align: right;"><small>rhacoに対してThu Mar 12 00:44:57 2009に生成されました。&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="../../doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
+</body>
+</html>

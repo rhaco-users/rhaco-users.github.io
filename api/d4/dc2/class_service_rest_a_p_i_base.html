@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>rhaco: クラス ServiceRestAPIBase</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css">
+<link href="../../doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- 作成： Doxygen 1.5.8 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="../../main.html"><span>メインページ</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>データ構造</span></a></li>
+    <li>
+      <form action="../../search.php" method="get">
+        <table cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td><label>&nbsp;検索&nbsp;</label></td>
+            <td><input type="text" name="query" value="" size="20" accesskey="s"/></td>
+          </tr>
+        </table>
+      </form>
+    </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="../../annotated.html"><span>データ構造</span></a></li>
+      <li><a href="../../hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="../../functions.html"><span>データフィールド</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>クラス ServiceRestAPIBase</h1><!-- doxytag: class="ServiceRestAPIBase" --><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public メソッド</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="1735dcd008cd047bacb96567ffba633c"></a><!-- doxytag: member="ServiceRestAPIBase::ServiceRestAPIBase" ref="1735dcd008cd047bacb96567ffba633c" args="($url=&quot;&quot;)" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>ServiceRestAPIBase</b> ($url=&quot;&quot;)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc2/class_service_rest_a_p_i_base.html#87cd88031ce51cdbb748755072aa0334">buildUrl</a> ($hash=array(), $addhash=array(), $addurl=&quot;&quot;)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc2/class_service_rest_a_p_i_base.html#a9746f2d60466c421c7a5b126c29fd5c">get</a> ($hash, $iscache=false)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc2/class_service_rest_a_p_i_base.html#bf0cb09cc684f334b7f9591182e4c2ce">post</a> ($variables=array())</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc2/class_service_rest_a_p_i_base.html#0ddc437ee8e988edf7fe6ec6a38c1507">setBasicAuthorization</a> ($user, $password)</td></tr>
+
+<tr><td colspan="2"><br><h2>変数</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="cf215f34a917d014776ce684a9ee8909"></a><!-- doxytag: member="ServiceRestAPIBase::$url" ref="cf215f34a917d014776ce684a9ee8909" args="" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>$url</b> = &quot;&quot;</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="da6112ba48917a0c8cc154ed90908b28"></a><!-- doxytag: member="ServiceRestAPIBase::$browser" ref="da6112ba48917a0c8cc154ed90908b28" args="" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>$browser</b></td></tr>
+
+</table>
+<hr><a name="_details"></a><h2>説明</h2>
+Restを返すAPIのベース<p>
+<dl class="author" compact><dt><b>作者:</b></dt><dd>Kazutaka Tokushima  New BSD License  Copyright 2007- rhaco project. All rights reserved. </dd></dl>
+<hr><h2>関数</h2>
+<a class="anchor" name="87cd88031ce51cdbb748755072aa0334"></a><!-- doxytag: member="ServiceRestAPIBase::buildUrl" ref="87cd88031ce51cdbb748755072aa0334" args="($hash=array(), $addhash=array(), $addurl=&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">buildUrl           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>hash</em> = <code>array()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>addhash</em> = <code>array()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>addurl</em> = <code>&quot;&quot;</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+URLを生成する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>array</em>&nbsp;</td><td>$hash </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>array</em>&nbsp;</td><td>$addhash </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$addurl </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="a9746f2d60466c421c7a5b126c29fd5c"></a><!-- doxytag: member="ServiceRestAPIBase::get" ref="a9746f2d60466c421c7a5b126c29fd5c" args="($hash, $iscache=false)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">get           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>hash</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>iscache</em> = <code>false</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+method GETを発行 iscacheの場合取得した結果をキャッシュする またはキャッシュから取得する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>array</em>&nbsp;</td><td>$hash </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>boolean</em>&nbsp;</td><td>$iscache </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="bf0cb09cc684f334b7f9591182e4c2ce"></a><!-- doxytag: member="ServiceRestAPIBase::post" ref="bf0cb09cc684f334b7f9591182e4c2ce" args="($variables=array())" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">post           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>variables</em> = <code>array()</code>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+method POSTを発行する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>unknown_type</em>&nbsp;</td><td>$variables </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>unknown </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="0ddc437ee8e988edf7fe6ec6a38c1507"></a><!-- doxytag: member="ServiceRestAPIBase::setBasicAuthorization" ref="0ddc437ee8e988edf7fe6ec6a38c1507" args="($user, $password)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">setBasicAuthorization           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>password</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+ベーシック認証<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$user </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$password </td></tr>
+  </table>
+</dl>
+
+</div>
+</div><p>
+<hr>このクラスの説明は次のファイルから生成されました:<ul>
+<li>network/http/ServiceRestAPIBase.php</ul>
+</div>
+<hr size="1"><address style="text-align: right;"><small>rhacoに対してThu Mar 12 00:44:58 2009に生成されました。&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="../../doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="alternate" type="application/rss+xml" title="rhaco headlines" href="http://pipes.yahoo.com/pipes/pipe.run?_id=bl3_LNiW3RGgAw8W1L3fcQ&_render=rss" />
+	<title>rhaco-users.jp :: For All Rhaco Users</title>
+</head>
+<body>
+<div id="wrapper">
+
+	<div id="header">
+		<a href="/"><img src="images/header_logo.png" alt="home" id="logo" /></a>
+		<a href="http://docs.rhaco-users.jp/"><img src="images/header_doc.png	" alt="documents" id="extLink" /></a>
+	</div>
+
+	<div id="topic">
+		<img src="images/topic_title.png" id="topic_title" />
+		<img src="images/topic.png" id="topic_fig" />
+	</div>
+
+	<div id="navi">
+		<ul>
+			<li><a href="/">ホーム</a></li>
+			<li><a href="http://code.google.com/p/rhaco/downloads/list?q=label:rhaco">ダウンロード</a></li>
+			<li><a href="http://fixdap.com/p/rhaco/">不具合報告</a></li>
+			<li><a href="http://groups.google.co.jp/group/rhaco-ja">メーリングリスト</a></li>
+			<li><a href="http://rhaco.org/">rhaco.org</a></li>
+		</ul>
+	</div>
+
+	<div id="contents-left">
+		<p class="notice"><a href="http://gihyo.jp/">gihyo.jp</a>で、rhacoの入門記事の連載が始まりました。<br />
+			「<a href="http://gihyo.jp/dev/serial/01/rhaco">シンプル＆パワフルなPHPライブラリ rhacoを使ってみよう！</a>」<br />
+			これから rhaco を使ってみようという方は、参考にしてみてください。</p>
+		
+		<p class="lead"><a href="http://rhaco.org/">rhaco</a> は PHPで書かれたオープンソースのライブラリです。MVC や <a href="http://michilu.com/django/doc-ja/faq/#django-mvc-controller-view-view-template">MTV</a> などの見通しの良い設計でアプリケーションの開発をすることが出来ます。PEAR などの外部ライブラリに一切依存せず、rhaco を一度設置するだけで、 O/R マッピング、テンプレートエンジン、そして共通のセットアップインタフェイスなど Web アプリケーションの開発を強力にサポートします。rhaco は、PHPのバージョン4 と 5 の両方で動作します。<a href="#note1" class="note">*1</a></p>
+		
+		<h2>シンプルで多機能なO/Rマッピング</h2>
+		<p>xml 形式でテーブルモデルの定義を行うと、自動で対応するモデルを生成します。DB 操作 API は非常に多機能で、もう通常のアプリケーションの開発で SQL を書くことはありません。さらに、Views と組み合わせ、数行のコードで CRUD を実現出来ます。もう使い物にならない scaffolding とはお別れしましょう。</p>
+		
+		<h2>標準のアプリケーションセットアップ</h2>
+		<p>作成したアプリケーションには、アプリケーションの設定やデータベース操作などが行える管理インタフェースが付属します。アプリケーションの設置で設定ファイルを操作することなく、全てブラウザ上でセットアップが完了します。</p>
+		
+		<h2>URL 設計も思いのまま</h2>
+		<p>クールな URL も自由自在です。あなたの思いのままに URL マッピングを記述できます。さらに、付属のセットアップにより htaccess ファイルも自動で生成できます。</p>
+		
+		<h2>テンプレートエンジン</h2>
+		<p>テンプレートの継承を実装したテンプレートエンジンで、ページレイアウトも簡単です。include まみれのテンプレートに嫌気がさしている方にぴったりです。</p>
+		<p>テンプレートエンジンに使われている XML ライブラリは、既存の HTML をスクレイピングするのにも有効です。PHP4 でも動作する XML パーサーとして使用するのも良いでしょう。</p>
+
+		<h2>国際化対応</h2>
+		<p>アプリケーションの国際化に gettext などの拡張は必要ありません。セットアップでアプリケーション内から翻訳の必要な箇所を抜き出し、gettext のファイルを編集する要領で簡単に国際化が実現出来ます。</p>
+
+	</div>
+	<div id="contents-right">
+		<h2>ダウンロード</h2>
+		<p>いつでも最新の rhaco をダウンロードできます。</p>
+		<p align="center"><a href="http://code.google.com/p/rhaco/downloads/list?q=label:rhaco"><img src="images/download_rhaco.png" alt="rhaco をダウンロード" /></a></p>
+		
+		<h2>rhacolipse</h2>
+		<p>rhaco 専用に開発された Eclipse プラグインです。</p>
+		<p align="center"><a href="http://blog.yabeken.org/rhacolipse_0_1_2"><img src="images/download_rhacolipse.png" alt="rhacolipse をダウンロード" /></a></p>
+		
+		<h2>ドキュメント</h2>
+		<p>オンラインで参照出来るドキュメントです。</p>
+		<ul> 
+			<li><a href="http://rhaco-users.jp/api/">rhaco api</a> コード内のドキュメントを整形して見ることができます(基本的に最新)</li> 
+			<li><a href="http://blog.shigepon.com/snippet0">逆引き rhaco</a> やりたいことから、rhaco の使い方を説明(by shigepon)</li> 
+			<li><a href="http://riaf.jp/document/rhaco/まるごとrhaco！">まるごと rhaco！</a> rhaco の使い方を初歩から説明(ver 1.4.9)</li> 
+			<li><a href="http://goungoun.dip.jp/app/fswiki/wiki.cgi/rhaco?page=FrontPage">rhaco に関するメモ</a> rhaco の使い方のメモ(by goungoun)</li> 
+			<li><a href="http://docs.rhaco-users.jp/">rhaco-ja ドキュメント</a> ドキュメントの計画などを進めています。未完成のものでよければこちらも。</li> 
+		</ul>
+
+		<h2>アプリケーション</h2>
+		<dl class="apps"> 
+			<dt><a href="http://code.google.com/p/rhaco/source/browse/jaja/trunk/blogkit">BlogKit</a></dt> 
+			<dd><a href="http://code.google.com/p/rhaco/wiki/jaja">jaja</a> で公開されている、シンプルなブログツール。rhaco の作者 <a href="http://tokushimakazutaka.com/">tokushima さんのブログ</a>にも使用されています。</dd> 
+			<dt><a href="http://conveyor.rhaco-users.jp/">Conveyor</a></dt> 
+			<dd><a href="http://code.google.com/p/rhaco/wiki/jaja">jajaアプリ</a>。Plagger と同様に様々なプラグインで RSS フィードを処理することができます。すべての設定をブラウザ上で行うことができるのも特徴です。(<a href="http://code.google.com/p/rhaco/source/browse/jaja/trunk/conveyor">リポジトリ</a>)</dd> 
+			<dt><a href="http://riaf.jp/lang/php/app/Sayist">Sayist</a></dt> 
+			<dd><a href="http://blog.riaf.jp">blog.riaf.jp</a> で使用されているブログツール。BlogKit に比べ、多少機能が多くなっています。</dd> 
+			<dt><a href="http://phwittr.riaf.jp/">Phwittr</a></dt>
+			<dd><a href="http://labs.strk.jp/code-fight/">PHP Framework Fight!</a> のイベントで作成された Twitter ライクなアプリケーション。</dd>
+		</dl> 
+		
+		<!--<p>このほかにも、<a href="http://code.google.com/p/rhaco/source/browse/jaja/">jaja</a> には複数のアプリケーションが登録されています。サンプルコードとしても活用出来ます。</p> -->
+
+		<h2>コミュニティ</h2>
+		<p>rhaco-ja コミュニティのメンバは、Webベースのチャットシステムの Lingr 上でコミュニティを作っています。質問など、気軽にどうぞ。</p>
+		<script type="text/javascript" src="http://www.lingr.com/room/ik92l9H5hJ6/badge/render" charset="utf-8"></script>
+	</div>
+
+	<div id="footnote">
+		<ol>
+			<li><a name="note1" id="note1"></a>バージョン 1 系は PHP4/5 対応です。次期バージョン 2 からは PHP5 のみの対応となります。</li>
+			<li><a name="note2" id="note2"></a>現在、当サイトに掲載されている情報は、バージョン 1.6 系のものとなっています。次期バージョンについては、<a href="http://docs.rhaco-users.jp/">docs.rhaco-users.jp</a> に情報があります。</li>
+		</ol>
+	</div>
+</div>
+
+<div id="footer">
+	<p>このサイトは <a href="http://code.google.com/p/rhaco/">Google Code Hosting</a> 上で管理されています。</p>
+	<address>Copyright &copy; rhaco-users.jp All rights reserved.<br />
+	$Id: index.html 1189 2009-04-08 02:16:46Z riafweb $</address>
+</div>
+
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  try {
+    var pageTracker = _gat._getTracker("UA-288900-18");
+    pageTracker._trackPageview();
+  } catch(err) {}</script>
+
+</body>
+</html>

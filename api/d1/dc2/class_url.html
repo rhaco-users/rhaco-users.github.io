@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>rhaco: クラス Url</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css">
+<link href="../../doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- 作成： Doxygen 1.5.8 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="../../main.html"><span>メインページ</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>データ構造</span></a></li>
+    <li>
+      <form action="../../search.php" method="get">
+        <table cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td><label>&nbsp;検索&nbsp;</label></td>
+            <td><input type="text" name="query" value="" size="20" accesskey="s"/></td>
+          </tr>
+        </table>
+      </form>
+    </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="../../annotated.html"><span>データ構造</span></a></li>
+      <li><a href="../../hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="../../functions.html"><span>データフィールド</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>クラス Url</h1><!-- doxytag: class="Url" --><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public メソッド</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc2/class_url.html#bee56693972d25e4c33e82790d2d7f0e">parse</a> ($src, $remotePath)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc2/class_url.html#9bee28ff1ffcd2966298a83e41ddccb3">parseAbsolute</a> ($baseUrl, $targetUrl)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc2/class_url.html#00079dffdad73c9395f50ab24c892ac0">parseRelative</a> ($baseUrl, $targetUrl)</td></tr>
+
+</table>
+<hr><a name="_details"></a><h2>説明</h2>
+URLを解析するクラス<p>
+<dl class="author" compact><dt><b>作者:</b></dt><dd>Kazutaka Tokushima  New BSD License  Copyright 2005- rhaco project. All rights reserved. </dd></dl>
+<hr><h2>関数</h2>
+<a class="anchor" name="bee56693972d25e4c33e82790d2d7f0e"></a><!-- doxytag: member="Url::parse" ref="bee56693972d25e4c33e82790d2d7f0e" args="($src, $remotePath)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">parse           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>remotePath</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+$src内のURLを$remotePathをもとにした絶対パスにした文字列を取得<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$src </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$remotePath </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="9bee28ff1ffcd2966298a83e41ddccb3"></a><!-- doxytag: member="Url::parseAbsolute" ref="9bee28ff1ffcd2966298a83e41ddccb3" args="($baseUrl, $targetUrl)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">parseAbsolute           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>baseUrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>targetUrl</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+絶対パスを取得<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$baseUrl </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$targetUrl </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="00079dffdad73c9395f50ab24c892ac0"></a><!-- doxytag: member="Url::parseRelative" ref="00079dffdad73c9395f50ab24c892ac0" args="($baseUrl, $targetUrl)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">parseRelative           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>baseUrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>targetUrl</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+相対パスを取得<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$baseUrl </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$targetUrl </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<hr>このクラスの説明は次のファイルから生成されました:<ul>
+<li>network/Url.php</ul>
+</div>
+<hr size="1"><address style="text-align: right;"><small>rhacoに対してThu Mar 12 00:44:59 2009に生成されました。&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="../../doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
+</body>
+</html>

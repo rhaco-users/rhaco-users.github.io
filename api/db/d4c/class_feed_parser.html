@@ -1,0 +1,315 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>rhaco: クラス FeedParser</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css">
+<link href="../../doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- 作成： Doxygen 1.5.8 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="../../main.html"><span>メインページ</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>データ構造</span></a></li>
+    <li>
+      <form action="../../search.php" method="get">
+        <table cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td><label>&nbsp;検索&nbsp;</label></td>
+            <td><input type="text" name="query" value="" size="20" accesskey="s"/></td>
+          </tr>
+        </table>
+      </form>
+    </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="../../annotated.html"><span>データ構造</span></a></li>
+      <li><a href="../../hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="../../functions.html"><span>データフィールド</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>クラス FeedParser</h1><!-- doxytag: class="FeedParser" --><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public メソッド</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4c/class_feed_parser.html#14f2c8e561abc3072267c4b0812a00d8">enableCache</a> ()</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4c/class_feed_parser.html#06ecec296aabf036b77715de7534c6be">disableCache</a> ()</td></tr>
+
+<tr><td colspan="2"><br><h2>Static Public メソッド</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4c/class_feed_parser.html#1eb6df5a829fa53386cda244f0e7916e">setCache</a> ($cachePath=&quot;&quot;, $cacheTime=86400)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4c/class_feed_parser.html#4f89d582f998f797f187e7a307e057ed">read</a> ($url, $time=null, $headers=array())</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4c/class_feed_parser.html#a3443ad829283a7228a2c0eab2581c20">getItem</a> ($urls, $time=null, $headers=array())</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4c/class_feed_parser.html#53ad51d3db3bd2e8cb30341b3e825faf">parse</a> ($src, $url=null, $time=null, $headers=array())</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4c/class_feed_parser.html#f0d1a6d847e3a872ea00606e2ff3bb7d">alternateUrl</a> ($baseurl, $src=&quot;&quot;, $headers=array())</td></tr>
+
+</table>
+<hr><a name="_details"></a><h2>説明</h2>
+Feed解析クラス<p>
+<dl class="author" compact><dt><b>作者:</b></dt><dd>Kazutaka Tokushima  New BSD License  Copyright 2006- rhaco project. All rights reserved. </dd></dl>
+<hr><h2>関数</h2>
+<a class="anchor" name="f0d1a6d847e3a872ea00606e2ff3bb7d"></a><!-- doxytag: member="FeedParser::alternateUrl" ref="f0d1a6d847e3a872ea00606e2ff3bb7d" args="($baseurl, $src=&quot;&quot;, $headers=array())" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">alternateUrl           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>baseurl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>src</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>headers</em> = <code>array()</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+URLまたは文字列からFeed URLを取得する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$baseurl </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$src </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="06ecec296aabf036b77715de7534c6be"></a><!-- doxytag: member="FeedParser::disableCache" ref="06ecec296aabf036b77715de7534c6be" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">disableCache           </td>
+          <td>(</td>
+          <td class="paramname">          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+一時的にキャッシュを無効にする 
+</div>
+</div><p>
+<a class="anchor" name="14f2c8e561abc3072267c4b0812a00d8"></a><!-- doxytag: member="FeedParser::enableCache" ref="14f2c8e561abc3072267c4b0812a00d8" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enableCache           </td>
+          <td>(</td>
+          <td class="paramname">          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+一時的に無効にしたキャッシュを有効にする 
+</div>
+</div><p>
+<a class="anchor" name="a3443ad829283a7228a2c0eab2581c20"></a><!-- doxytag: member="FeedParser::getItem" ref="a3443ad829283a7228a2c0eab2581c20" args="($urls, $time=null, $headers=array())" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">getItem           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>urls</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>time</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>headers</em> = <code>array()</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+URLからFeedを取得しRssItemをまとめたものを取得<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string/array</em>&nbsp;</td><td>$urls </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$time 現在時間-$time秒以内の更新を取得 </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>array(tag.feed.model.RssItem20) </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="53ad51d3db3bd2e8cb30341b3e825faf"></a><!-- doxytag: member="FeedParser::parse" ref="53ad51d3db3bd2e8cb30341b3e825faf" args="($src, $url=null, $time=null, $headers=array())" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">parse           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>url</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>time</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>headers</em> = <code>array()</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+文字列からtag.feed.Rss20にセットする<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$src </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>tag.feed.Rss20 </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="4f89d582f998f797f187e7a307e057ed"></a><!-- doxytag: member="FeedParser::read" ref="4f89d582f998f797f187e7a307e057ed" args="($url, $time=null, $headers=array())" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">read           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>time</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>headers</em> = <code>array()</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+URLからFeedを取得しRSS20として取得<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$url </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$time 現在時間-$time秒以内の更新を取得 </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>tag.feed.Rss20 </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="1eb6df5a829fa53386cda244f0e7916e"></a><!-- doxytag: member="FeedParser::setCache" ref="1eb6df5a829fa53386cda244f0e7916e" args="($cachePath=&quot;&quot;, $cacheTime=86400)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">setCache           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>cachePath</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>cacheTime</em> = <code>86400</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+FeedParser用のキャッシュ定義を行う<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$cachePath </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$cacheTime </td></tr>
+  </table>
+</dl>
+
+</div>
+</div><p>
+<hr>このクラスの説明は次のファイルから生成されました:<ul>
+<li>tag/feed/FeedParser.php</ul>
+</div>
+<hr size="1"><address style="text-align: right;"><small>rhacoに対してThu Mar 12 00:44:56 2009に生成されました。&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="../../doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
+</body>
+</html>

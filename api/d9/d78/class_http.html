@@ -1,0 +1,387 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>rhaco: クラス Http</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css">
+<link href="../../doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- 作成： Doxygen 1.5.8 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="../../main.html"><span>メインページ</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>データ構造</span></a></li>
+    <li>
+      <form action="../../search.php" method="get">
+        <table cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td><label>&nbsp;検索&nbsp;</label></td>
+            <td><input type="text" name="query" value="" size="20" accesskey="s"/></td>
+          </tr>
+        </table>
+      </form>
+    </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="../../annotated.html"><span>データ構造</span></a></li>
+      <li><a href="../../hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="../../functions.html"><span>データフィールド</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>クラス Http</h1><!-- doxytag: class="Http" --><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public メソッド</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d78/class_http.html#5ffdb325cd36366e9a2cf08fac53e285">request</a> ($url, $method=&quot;GET&quot;, $headers=array(), $timeout=5, $blocking=1)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d78/class_http.html#ab3a76118b695178fe49daf87e4afb65">body</a> ($url, $method=&quot;GET&quot;, $headers=array(), $timeout=5)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d78/class_http.html#3fe1b7937203dc2bd5ae70ad31633494">parseStatus</a> ($head)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d78/class_http.html#58e51a601eda7d4925cc3b1770e1464f">isRedirect</a> (&amp;$url, $status, $head=&quot;&quot;)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d78/class_http.html#e5c6de65e17cd92876341d775e27c598">head</a> ($url, $headers=array(), $timeout=5)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d78/class_http.html#12690b3b2efa8ee6a7d7942ddb6d459a">modified</a> ($url, $time, $timeout=5)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d78/class_http.html#1ba385cbec11caf82a707419a3eb1e07">referer</a> ()</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d78/class_http.html#22265fd3bade6f4c49d9bbd20fb48f32">status</a> ($statuscode)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="85e71f70d2d29d09113c0cc594b961df"></a><!-- doxytag: member="Http::rawdata" ref="85e71f70d2d29d09113c0cc594b961df" args="()" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>rawdata</b> ()</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="0f1b818609b12e25fc24b78f7ec0c968"></a><!-- doxytag: member="Http::get" ref="0f1b818609b12e25fc24b78f7ec0c968" args="($url, $headers=array(), $timeout=5)" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>get</b> ($url, $headers=array(), $timeout=5)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="512e831af4dfaff83d567112e3dfe5ac"></a><!-- doxytag: member="Http::post" ref="512e831af4dfaff83d567112e3dfe5ac" args="($url, $variables=array(), $headers=array(), $timeout=5)" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><b>post</b> ($url, $variables=array(), $headers=array(), $timeout=5)</td></tr>
+
+</table>
+<hr><a name="_details"></a><h2>説明</h2>
+HTTPプロトコル<p>
+<dl class="author" compact><dt><b>作者:</b></dt><dd>Kazutaka Tokushima  New BSD License  Copyright 2005- rhaco project. All rights reserved. </dd></dl>
+<hr><h2>関数</h2>
+<a class="anchor" name="ab3a76118b695178fe49daf87e4afb65"></a><!-- doxytag: member="Http::body" ref="ab3a76118b695178fe49daf87e4afb65" args="($url, $method=&quot;GET&quot;, $headers=array(), $timeout=5)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">body           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>method</em> = <code>&quot;GET&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>headers</em> = <code>array()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>timeout</em> = <code>5</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+http requestを発行しbodyを取得する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$url </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$method </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>array</em>&nbsp;</td><td>$headers </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$timeout </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="e5c6de65e17cd92876341d775e27c598"></a><!-- doxytag: member="Http::head" ref="e5c6de65e17cd92876341d775e27c598" args="($url, $headers=array(), $timeout=5)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">head           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>headers</em> = <code>array()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>timeout</em> = <code>5</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+http requestを発行しheadを取得する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$url </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>array</em>&nbsp;</td><td>$headers </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$timeout </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="58e51a601eda7d4925cc3b1770e1464f"></a><!-- doxytag: member="Http::isRedirect" ref="58e51a601eda7d4925cc3b1770e1464f" args="(&amp;$url, $status, $head=&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">isRedirect           </td>
+          <td>(</td>
+          <td class="paramtype">&amp;$&nbsp;</td>
+          <td class="paramname"> <em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>status</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>head</em> = <code>&quot;&quot;</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+$statusがリダイレクト対象だった場合に$urlにリダイレクト先ＵＲＬを登録する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>unknown_type</em>&nbsp;</td><td>$url </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$status </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$head </td></tr>
+  </table>
+</dl>
+
+</div>
+</div><p>
+<a class="anchor" name="12690b3b2efa8ee6a7d7942ddb6d459a"></a><!-- doxytag: member="Http::modified" ref="12690b3b2efa8ee6a7d7942ddb6d459a" args="($url, $time, $timeout=5)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">modified           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>timeout</em> = <code>5</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+http requestを発行しmodifiedを取得する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$url </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$time </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$timeout </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="3fe1b7937203dc2bd5ae70ad31633494"></a><!-- doxytag: member="Http::parseStatus" ref="3fe1b7937203dc2bd5ae70ad31633494" args="($head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">parseStatus           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>head</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+ヘッダからstatusコードを取得<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$head </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>int </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="1ba385cbec11caf82a707419a3eb1e07"></a><!-- doxytag: member="Http::referer" ref="1ba385cbec11caf82a707419a3eb1e07" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">referer           </td>
+          <td>(</td>
+          <td class="paramname">          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+REFERERを取得<p>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>string </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="5ffdb325cd36366e9a2cf08fac53e285"></a><!-- doxytag: member="Http::request" ref="5ffdb325cd36366e9a2cf08fac53e285" args="($url, $method=&quot;GET&quot;, $headers=array(), $timeout=5, $blocking=1)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">request           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>method</em> = <code>&quot;GET&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>headers</em> = <code>array()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>timeout</em> = <code>5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>blocking</em> = <code>1</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+リクエストを発行する<p>
+<dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$url </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>string</em>&nbsp;</td><td>$method </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>array</em>&nbsp;</td><td>$headers </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$timeout </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>int</em>&nbsp;</td><td>$blocking </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>戻り値:</b></dt><dd>array </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="22265fd3bade6f4c49d9bbd20fb48f32"></a><!-- doxytag: member="Http::status" ref="22265fd3bade6f4c49d9bbd20fb48f32" args="($statuscode)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">status           </td>
+          <td>(</td>
+          <td class="paramtype">$&nbsp;</td>
+          <td class="paramname"> <em>statuscode</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+ステータスヘッダを書き出し <dl compact><dt><b>引数:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>unknown_type</em>&nbsp;</td><td>$statuscode </td></tr>
+  </table>
+</dl>
+
+</div>
+</div><p>
+<hr>このクラスの説明は次のファイルから生成されました:<ul>
+<li>network/http/Http.php</ul>
+</div>
+<hr size="1"><address style="text-align: right;"><small>rhacoに対してThu Mar 12 00:44:56 2009に生成されました。&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="../../doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
+</body>
+</html>
