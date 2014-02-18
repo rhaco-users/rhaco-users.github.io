@@ -10,7 +10,7 @@
 
 	<div id="header">
 		<a href="/"><img src="images/header_logo.png" alt="home" id="logo" /></a>
-		<a href="http://docs.rhaco-users.jp/"><img src="images/header_doc.png	" alt="documents" id="extLink" /></a>
+		<!-- <a href="http://docs.rhaco-users.jp/"><img src="images/header_doc.png	" alt="documents" id="extLink" /></a>  -->
 	</div>
 
 	<div id="topic">
@@ -21,9 +21,9 @@
 	<div id="navi">
 		<ul>
 			<li><a href="/">ホーム</a></li>
-			<li><a href="http://code.google.com/p/rhaco/downloads/list?q=label:rhaco">ダウンロード</a></li>
-			<li><a href="http://fixdap.com/p/rhaco/">不具合報告</a></li>
-			<li><a href="http://groups.google.co.jp/group/rhaco-ja">メーリングリスト</a></li>
+			<li><a href="http://github.com/tokushima/rhaco1/releases">ダウンロード</a></li>
+			<li><a href="http://github.com/tokushima/rhaco1/issues">不具合報告</a></li>
+			<!-- <li><a href="http://groups.google.co.jp/group/rhaco-ja">メーリングリスト</a></li> -->
 			<li><a href="http://rhaco.org/">rhaco.org</a></li>
 		</ul>
 	</div>
@@ -55,32 +55,35 @@
 	<div id="contents-right">
 		<h2>ダウンロード</h2>
 		<p>いつでも最新の rhaco をダウンロードできます。</p>
-		<p align="center"><a href="http://code.google.com/p/rhaco/downloads/list?q=label:rhaco"><img src="images/download_rhaco.png" alt="rhaco をダウンロード" /></a></p>
+		<p align="center"><a href="http://github.com/tokushima/rhaco1/releases"><img src="images/download_rhaco.png" alt="rhaco をダウンロード" /></a></p>
 		
-		<h2>rhacolipse</h2>
-		<p>rhaco 専用に開発された Eclipse プラグインです。</p>
-		<p align="center"><a href="http://blog.yabeken.org/rhacolipse_0_1_2"><img src="images/download_rhacolipse.png" alt="rhacolipse をダウンロード" /></a></p>
+		<h2 style="text-decoration: line-through;">rhacolipse</h2>
+		<p style="text-decoration: line-through;">rhaco 専用に開発された Eclipse プラグインです。</p>
+		<p align="center">
+			<a href="#"><img src="images/download_rhacolipse.png" alt="rhacolipse をダウンロード" style="filter: gray; -webkit-filter: grayscale(100%);" /></a>
+			<!-- <a href="http://blog.yabeken.org/rhacolipse_0_1_2"><img src="images/download_rhacolipse.png" alt="rhacolipse をダウンロード" /></a> -->
+		</p>
 		
 		<h2>ドキュメント</h2>
 		<p>オンラインで参照出来るドキュメントです。</p>
 		<ul> 
 			<li><a href="http://rhaco-users.github.io/api/">rhaco api</a> コード内のドキュメントを整形して見ることができます(基本的に最新)</li> 
-			<li><a href="http://blog.shigepon.com/snippet0">逆引き rhaco</a> やりたいことから、rhaco の使い方を説明(by shigepon)</li> 
-			<li><a href="http://riaf.jp/document/rhaco/まるごとrhaco！">まるごと rhaco！</a> rhaco の使い方を初歩から説明(ver 1.4.9)</li> 
+			<li style="text-decoration: line-through;"><a href="http://blog.shigepon.com/snippet0">逆引き rhaco</a> やりたいことから、rhaco の使い方を説明(by shigepon)</li> 
+			<li style="text-decoration: line-through;"><a href="http://riaf.jp/document/rhaco/まるごとrhaco！">まるごと rhaco！</a> rhaco の使い方を初歩から説明(ver 1.4.9)</li> 
 			<li><a href="http://goungoun.dip.jp/app/fswiki/wiki.cgi/rhaco?page=FrontPage">rhaco に関するメモ</a> rhaco の使い方のメモ(by goungoun)</li> 
-			<li><a href="http://docs.rhaco-users.jp/">rhaco-ja ドキュメント</a> ドキュメントの計画などを進めています。未完成のものでよければこちらも。</li> 
+			<li style="text-decoration: line-through;"><a href="http://docs.rhaco-users.jp/">rhaco-ja ドキュメント</a> ドキュメントの計画などを進めています。未完成のものでよければこちらも。</li> 
 		</ul>
 
 		<h2>アプリケーション</h2>
 		<dl class="apps"> 
-			<dt><a href="http://code.google.com/p/rhaco/source/browse/jaja/trunk/blogkit">BlogKit</a></dt> 
-			<dd><a href="http://code.google.com/p/rhaco/wiki/jaja">jaja</a> で公開されている、シンプルなブログツール。rhaco の作者 <a href="http://tokushimakazutaka.com/">tokushima さんのブログ</a>にも使用されています。</dd> 
-			<dt><a href="http://rhaco-users.github.io/conveyor/">Conveyor</a></dt> 
-			<dd><a href="http://code.google.com/p/rhaco/wiki/jaja">jajaアプリ</a>。Plagger と同様に様々なプラグインで RSS フィードを処理することができます。すべての設定をブラウザ上で行うことができるのも特徴です。(<a href="http://code.google.com/p/rhaco/source/browse/jaja/trunk/conveyor">リポジトリ</a>)</dd> 
+			<dt><a href="https://github.com/tokushima/blogkit_for_rhaco1">BlogKit</a></dt> 
+			<dd><a href="http://code.google.com/p/rhaco/wiki/jaja" style="text-decoration: line-through;">jaja</a> で公開されている、シンプルなブログツール。rhaco の作者 <a href="http://tokushimakazutaka.com/" style="text-decoration: line-through;">tokushima さんのブログ</a>にも使用されています。</dd> 
+			<dt><a href="https://github.com/tokushima/conveyor_for_rhaco1">Conveyor</a></dt> 
+			<dd><a href="http://code.google.com/p/rhaco/wiki/jaja" style="text-decoration: line-through;">jajaアプリ</a>。Plagger と同様に様々なプラグインで RSS フィードを処理することができます。すべての設定をブラウザ上で行うことができるのも特徴です。</dd> 
 			<dt><a href="http://riaf.jp/lang/php/app/Sayist">Sayist</a></dt> 
 			<dd><a href="http://blog.riaf.jp">blog.riaf.jp</a> で使用されているブログツール。BlogKit に比べ、多少機能が多くなっています。</dd> 
-			<dt><a href="http://phwittr.riaf.jp/">Phwittr</a></dt>
-			<dd><a href="http://labs.strk.jp/code-fight/">PHP Framework Fight!</a> のイベントで作成された Twitter ライクなアプリケーション。</dd>
+			<dt><a href="http://phwittr.riaf.jp/" style="text-decoration: line-through;">Phwittr</a></dt>
+			<dd><a href="http://labs.strk.jp/code-fight/" style="text-decoration: line-through;">PHP Framework Fight!</a> のイベントで作成された Twitter ライクなアプリケーション。</dd>
 		</dl> 
 		
 		<!--<p>このほかにも、<a href="http://code.google.com/p/rhaco/source/browse/jaja/">jaja</a> には複数のアプリケーションが登録されています。サンプルコードとしても活用出来ます。</p> -->
@@ -93,7 +96,7 @@
 	<div id="footnote">
 		<ol>
 			<li><a name="note1" id="note1"></a>バージョン 1 系は PHP4/5 対応です。次期バージョン 2 からは PHP5 のみの対応となります。</li>
-			<li><a name="note2" id="note2"></a>現在、当サイトに掲載されている情報は、バージョン 1.6 系のものとなっています。次期バージョンについては、<a href="http://docs.rhaco-users.jp/">docs.rhaco-users.jp</a> に情報があります。</li>
+			<li><a name="note2" id="note2"></a>現在、当サイトに掲載されている情報は、バージョン 1.6 系のものとなっています。次期バージョンについては、<a href="http://rhaco.org/">rhaco.org</a> に情報があります。</li>
 		</ol>
 	</div>
 </div>
